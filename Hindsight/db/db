@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS comment_section_db;
+USE comment_section_db;
+
+
+CREATE TABLE IF NOT EXISTS comments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL, 
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+USE comment_section_db;
+
+INSERT INTO comments (user_id, username, content) VALUES
+('user1', 'This is the first sample comment.'),
+('user2', 'Here is another sample comment.');
+

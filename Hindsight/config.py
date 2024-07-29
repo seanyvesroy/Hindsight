@@ -1,0 +1,1 @@
+db_name = "mysql://admin:consoleScanner4!@comments.cz1dvzunrwfg.us-east-1.rds.amazonaws.com:3306/comment_section_db"
