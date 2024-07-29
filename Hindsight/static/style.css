@@ -3,9 +3,41 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: #fff;
+
 }
 body{
-    background: #080808;
-    color: #fff;
+    background: #fff;
+
+}
+
+.main-container {
+
+}
+
+.nav-bar {
+    background-color: #57E2E5;
+    border-color: #153131;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left {
+    padding: 2%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.nav-right {
+    padding: 2%;
+    list-style: none;
+}
+.nav-bar li {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #153131;
+    border
+}
+
+.top-Obstacle-container {
+
 }
